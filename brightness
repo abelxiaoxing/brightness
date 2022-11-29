@@ -5,6 +5,7 @@
 
 # Tested with Python 2.7 and 3.2, but Python 3 is recommended.
 
+
 usage="""
 brightness
     - get current brightness setting
