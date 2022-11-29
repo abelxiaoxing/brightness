@@ -1,8 +1,8 @@
 1. 下载我的亮度变换器脚本,允许它执行,并将其放到/usr/local/bin/  
-`git clone https://github.com/abelxiaoxing/brightness.git`
-`cd brightness`
-`chmod +x brightness`
-`sudo mv brightness /usr/local/bin`
+`git clone https://github.com/abelxiaoxing/brightness.git`  
+`cd brightness`  
+`chmod +x brightness`  
+`sudo mv brightness /usr/local/bin`  
 2. 我们必须允许编辑亮度文件,以便在任何地方都不需要sudo,然而亮度文件开机后默认修改回root权限,因此需要添加开机启动脚本  
 `sudo nvim /etc/rc.local`  
   + 末尾添加以下内容  
