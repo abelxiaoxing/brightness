@@ -14,3 +14,7 @@
   + `brightness xx` 将亮度设置为xx,xx为亮度信息,最高亮度255  
   + `brightness inc step` , `brightness dec step` 增加或降低亮度,step为设定的值,不输入step默认为系统亮度的10%  
 4. 最后将brightness映射为快捷键(自行设置)
+5. 其他组件权限方法提示:
+   + 输入`xbacklight -dec 1`查看权限哪里不足
+   + 对那个文件执行`chmod o+x`
+   + 加入开机自启动的rclocal中
